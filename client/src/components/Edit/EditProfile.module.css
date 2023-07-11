@@ -1,0 +1,45 @@
+.Signin{
+    width:50%;
+    margin:2rem auto;
+    background-color: white;
+    padding:.3rem;
+    text-align: center;
+    align-items: center;
+    border-radius: .5rem;
+    box-shadow: .1rem .1rem gray ;
+    
+}
+.signInHeader{
+  color: rgb(24, 7, 24);
+}
+.formGroup {
+    width:90%;
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    align-items:center;
+    margin-bottom: .3rem;
+;
+}
+
+
+.username,.email,.password{
+    width:70%;
+    margin:.8rem; 
+    
+    
+    height:2rem;
+    display: inline;
+    
+    border-radius: .3rem;
+}
+
+button{
+    width:6rem;
+    border-radius: .5rem;
+    height:2rem;
+
+
+}
+.photo{
+    
+}

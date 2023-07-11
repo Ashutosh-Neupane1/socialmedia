@@ -1,0 +1,102 @@
+
+
+
+.post {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  margin:.5rem;
+
+}
+
+.postHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.postAvatar {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 16px;
+}
+
+.postAuthor {
+  font-weight: bold;
+}
+
+.postGrid {
+  margin-bottom: 10px;
+}
+
+.postText {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.postPhotos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+  grid-gap: .3rem;
+
+ 
+  overflow: hidden;
+}
+
+.postPhotos img {
+  width: 100%;
+
+  object-fit: cover;
+}
+
+.morePhotos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.morePhotos::before {
+  content: '+';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.postFooter {
+  display: flex;
+  justify-content: space-between;
+  height:1rem;
+  align-items: center;
+}
+
+.postFooterItem {
+  display: flex;
+  align-items: center;
+  margin:0 1rem;
+}
+
+.postFooterIcon {
+
+  font-size: 1.8rem;
+  margin:.5rem
+}
+
+.postFooterText {
+  font-size: 1rem;
+  color:gray;
+  font-weight: bolder;
+}

@@ -1,0 +1,92 @@
+.aboutPage {
+  margin: 1rem auto;
+  width: 50%;
+}
+
+.aboutPage h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.aboutPage h2 {
+  font-size: 1.7rem;
+  margin-bottom: 1.2rem;
+}
+
+.aboutPage p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1.8rem;
+}
+
+.aboutimg {
+  height: 10rem;
+  border-radius: 50%;
+}
+.date{
+  display:inline !important;
+}
+
+.aboutContainer{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:.5rem;
+  border-bottom:.3rem gray solid  ;
+  margin:.3rem 0;
+}
+.creditials{
+  margin:2rem;
+  display:flex;
+  flex-direction: column;
+}
+.userEmail{
+  color:gray;
+  font-weight: 400;
+  font-family: cursive;
+}
+.gridContainer {
+  display: flex;
+  justify-content: space-around;
+ 
+  background-color:whitesmoke; 
+  padding:.5rem;
+ 
+  border-radius: .5rem;
+  align-items: center;
+  
+
+}
+.gridContainer h3:hover{
+  cursor: pointer;
+  
+}
+
+.tab {
+  display: none;
+}
+
+.activeTab {
+  display: block;
+ 
+}
+.MuiTabsIndicator {
+  background-color: gray;
+  height: .5rem;
+  bottom: -1px;
+}
+.button{
+  padding:0;
+  background-color: red;
+
+  
+ 
+
+}
+span{
+  font-weight: lighter;
+}
+
+
+
+

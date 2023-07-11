@@ -1,0 +1,64 @@
+.Card {
+  display: flex;
+  align-items: center;
+  width: 25rem;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.userName {
+  flex-grow: 1;
+  margin: 0.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.images {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.text {
+  margin-left: 16px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.FollowProfileButton {
+  margin-left: 16px;
+}
+
+.eyeIcon {
+  margin: 1rem;
+}
+
+@media (max-width: 576px) {
+  .Card {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .eyeIcon {
+    display: inline;
+  }
+
+  .text,
+  .FollowProfileButton,
+  .eyeIcon {
+    margin: 0;
+    margin-top: 0.5rem;
+  }
+}
